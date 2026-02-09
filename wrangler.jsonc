@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kickstarter-tracker",
+  "compatibility_date": "2024-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./dist",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kickstarter-tracker-db",
+      "database_id": "f4f270e4-8012-4ab5-b672-6774a03ea49e"
+    }
+  ]
+}
